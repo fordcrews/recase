@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "updated": "2026-10-28",
+  "models": [
+    {
+      "id": "dell-inspiron-1545",
+      "brand": "Dell",
+      "model": "Inspiron 1545",
+      "aka": ["1545"],
+      "year": "2008–2010 (approx.)",
+      "screen_size_in": 15.6,
+      "resolutions": ["1366×768 (HD)", "1600×900 (HD+)"],
+      "panel_interface": "LVDS",
+      "panel_connector_notes": "Common replacement panels use a 40-pin LVDS connector. CCFL and LED-backlit variants exist; CCFL units need an inverter board, LED units do not.",
+      "cpu": "Intel Celeron, Pentium Dual-Core, or Core 2 Duo (config-dependent)",
+      "memory": "DDR2 SODIMM, dual channel; up to 8 GB possible per Dell setup guide",
+      "power_adapter": "65 W or 90 W AC adapter (100–240 VAC)",
+      "battery": "4-cell, 6-cell, or 9-cell smart Li-ion (Wh varies by pack)",
+      "ports_notes": "VGA out, 3× USB 2.0, Ethernet, ExpressCard/34, optical drive bay (typical)",
+      "gutting_notes": "Hinge and bezel screws are well documented in community tear-downs. Identify CCFL vs LED before ordering a panel. Keep the stock AC adapter for bartop/kiosk builds.",
+      "unknowns": ["Exact panel part number on a given unit (read the sticker on the back of the LCD)", "Which CPU/GPU SKU without the service tag"],
+      "fits_projects": ["bartop-arcade", "photo-frame", "headrest-monitor", "kiosk"],
+      "sources": [
+        {"title": "Dell Inspiron 1545 Setup Guide (display + LVDS + power)", "url": "https://downloads.dell.com/manuals/all-products/esuprt_laptop/esuprt_inspiron_laptop/inspiron-1545_setup%20guide_en-us.pdf"},
+        {"title": "Dell Inspiron 1545 User Manual — Specifications", "url": "https://www.manualsdir.com/manuals/600855/dell-inspiron-1545.html?page=62"},
+        {"title": "Inside My Laptop — Inspiron 1545 screen replacement (CCFL vs LED)", "url": "https://www.insidemylaptop.com/replacing-cracked-lcd-screen-on-dell-inspiron-1545-laptop/"}
+      ]
+    },
+    {
+      "id": "dell-latitude-d830",
+      "brand": "Dell",
+      "model": "Latitude D830",
+      "aka": ["D830"],
+      "year": "2007",
+      "screen_size_in": 15.4,
+      "resolutions": ["1280×800 (WXGA)", "1680×1050 (WSXGA+)", "1920×1200 (WUXGA)"],
+      "panel_interface": "LVDS",
+      "panel_connector_notes": "Replacement listings commonly cite a 30-pin LVDS connector (often top-right when viewing the panel rear). CCFL backlight with inverter. Match native resolution to the original panel.",
+      "cpu": "Intel Core 2 Duo (Socket P; T7100–T7800 family common)",
+      "memory": "DDR2 SODIMM; Dell datasheet lists up to 4 GB shared configurations; community reports higher with later BIOS",
+      "power_adapter": "90 W AC adapter (Dell datasheet)",
+      "battery": "Primary 6-cell/53 Wh or 9-cell/85 Wh Li-ion; optional secondary bay battery",
+      "ports_notes": "VGA, S-Video, serial, FireWire, 3× USB (one powered D-Bay), Gigabit Ethernet, PC Card + ExpressCard, docking connector",
+      "gutting_notes": "Business chassis with modular D-Bay. Good candidate for keeping the chassis intact inside a dock, or harvesting the 15.4\" panel for a frame. Service manuals available from Dell.",
+      "unknowns": ["Exact resolution and matte/glossy finish without opening the lid or checking the panel sticker", "Discrete vs integrated GPU without labels"],
+      "fits_projects": ["bartop-arcade", "photo-frame", "headrest-monitor", "kiosk"],
+      "sources": [
+        {"title": "Dell Latitude D830 datasheet (display, 90 W adapter, batteries)", "url": "http://support.harlander.com/uploads/treiberdatenbank/notebooks/dell/latitude_d830/datenblatt.pdf"},
+        {"title": "MacDat — Latitude D830 specifications", "url": "https://www.macdat.net/laptops/dell/latitude/d830.php"},
+        {"title": "Dell Latitude D830 Service Manual", "url": "https://dl.dell.com/manuals/all-products/esuprt_laptop/esuprt_latitude_laptop/latitude-d830_service%20manual_en-us.pdf"}
+      ]
+    },
+    {
+      "id": "dell-inspiron-15-5579",
+      "brand": "Dell",
+      "model": "Inspiron 15 5579 2-in-1",
+      "aka": ["Inspiron 15-5579", "P58F", "service tag 77CX4L2"],
+      "year": "2017–2018 (8th-gen U-series era)",
+      "screen_size_in": 15.6,
+      "resolutions": ["1920×1080 (FHD) touch IPS"],
+      "panel_interface": "eDP",
+      "panel_connector_notes": "Common OEM panel AUO B156HAB01.0 (Dell P/N family 0079Y) uses eDP 2-lane with a 40-pin connector and on-cell touch. Confirm the sticker on your panel before buying a controller board.",
+      "cpu": "8th-generation Intel Core i5 or i7 (config-dependent — look up service tag 77CX4L2 on Dell Support for the exact SKU)",
+      "memory": "DDR4 SODIMM (max capacity config-dependent; retail configs up to 16–32 GB reported)",
+      "power_adapter": "45 W AC adapter, 19.5 VDC, 4.5 mm barrel (100–240 VAC)",
+      "battery": "3-cell smart Li-ion, 42 Wh",
+      "ports_notes": "HDMI 1.4b, USB-A (incl. USB 3.1 Gen 1), SD card reader, combo audio; Wi-Fi + Bluetooth typical. 360° hinge (laptop/tablet/tent/stand).",
+      "gutting_notes": "Touch + 360° hinge make this a strong photo-frame or kiosk candidate without heavy modification. For bartop, prefer keeping the whole chassis in a dock rather than transplanting the eDP touch panel unless you have a matching controller. Thin chassis — remove the battery carefully before any case work.",
+      "unknowns": ["Exact CPU, RAM, and storage for service tag 77CX4L2 until checked on Dell Support", "Whether this unit’s panel is exactly B156HAB01.0 vs another FHD touch SKU"],
+      "fits_projects": ["bartop-arcade", "photo-frame", "kiosk"],
+      "sources": [
+        {"title": "Dell Inspiron 15 5000 2-in-1 Setup and Specifications (5579)", "url": "https://objects.icecat.biz/objects/mmo_38337286_1508747607_8683_1857.pdf"},
+        {"title": "Dell support manuals — Inspiron 15 5579 2-in-1", "url": "https://www.dell.com/support/manuals/en-us/inspiron-15-5579-2-in-1-laptop/inspiron-15-5579-setup-specifications/storage?guid=guid-82b4a9a6-4ec0-4e66-baf8-2f8226acf747&lang=en-us"},
+        {"title": "Panelook — AUO B156HAB01.0 (eDP 2-lane, 40-pin)", "url": "https://www.panelook.com/B156HAB01.0_AUO_15.6_Assembly_parameter_30327.html"}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "bartop-arcade",
+      "title": "Bartop arcade (Batocera)",
+      "summary": "Turn a working laptop into a one-player bartop with a printed or wood cabinet, USB controls, and Batocera on a USB stick or internal drive.",
+      "difficulty": "moderate",
+      "fits_model_ids": ["dell-inspiron-1545", "dell-latitude-d830", "dell-inspiron-15-5579"],
+      "parts": [
+        "Working laptop (14–17\" class fits most docks; confirm your design)",
+        "USB arcade joystick + buttons kit (one player)",
+        "USB flash drive (16 GB+) for Batocera, or install Batocera to internal storage",
+        "3D-printed dock/cabinet OR wood/MDF panels from published plans",
+        "Stock laptop AC adapter",
+        "Optional: external speakers if the laptop speakers face the wrong way"
+      ],
+      "steps": [
+        "Decide dock vs gut: dock keeps the laptop intact (easier, reversible); gutting transplants the panel and board into a custom case (harder, better fit).",
+        "Download Batocera from batocera.org and write it to USB (or install to disk).",
+        "Boot once on a desk, update Batocera, set video mode to the laptop’s native resolution, and test a controller.",
+        "Print or cut the cabinet. InventorMike’s Laptop Arcade Dock fits 14–17\" laptops; wood plans (WeeCade, Holbrook, Pete Clarke) need measuring your lid thickness and bezel.",
+        "Mount the control panel, route USB to the laptop, and secure the chassis so vents stay clear.",
+        "Cable-manage the AC adapter; leave a service hatch so you can remove the battery later."
+      ],
+      "safety": [
+        "Remove or disconnect the Li-ion battery before drilling, sawing, or soldering near the chassis.",
+        "Never puncture, crush, or short a laptop battery — swollen packs go to proper e-waste recycling.",
+        "Keep intake/exhaust vents unobstructed; bartops can cook a Core 2 Duo or U-series CPU.",
+        "Use the original wattage (or higher, Dell-compatible) AC adapter only."
+      ]
+    },
+    {
+      "id": "photo-frame",
+      "title": "Digital photo frame / stand",
+      "summary": "Run a full-screen slideshow or Immich/Jellyfin client on an old laptop propped as a frame — tent mode on 2-in-1s is ideal.",
+      "difficulty": "easy",
+      "fits_model_ids": ["dell-inspiron-1545", "dell-latitude-d830", "dell-inspiron-15-5579"],
+      "parts": [
+        "Laptop with a decent screen",
+        "Lightweight OS or kiosk browser (Linux + feh/mpv, or a digital-signage image)",
+        "Photo source (local folder, NAS share, Immich, etc.)",
+        "Stand, 3D-printed easel, or use 2-in-1 tent/stand mode",
+        "AC adapter (leave battery removed for always-on duty if safe for your model)"
+      ],
+      "steps": [
+        "Clean install a lightweight OS or configure the existing OS for auto-login + fullscreen slideshow.",
+        "Point the slideshow at your photo library (local sync or network).",
+        "Disable sleep, dimming, and noisy fans where possible; set a conservative brightness.",
+        "Build or print a stand that tips the screen back 10–20°, or use the 5579’s hinge modes.",
+        "Hide cables; label the power brick wattage on the frame back."
+      ],
+      "safety": [
+        "Always-on frames: remove the battery if the vendor supports AC-only operation, or leave it installed but cool and monitored — heat + aging Li-ion is the risk.",
+        "Do not block vents behind a wall mount.",
+        "Use a surge-protected outlet for unattended devices."
+      ]
+    },
+    {
+      "id": "headrest-monitor",
+      "title": "Car headrest monitor",
+      "summary": "Harvest a laptop LCD (or use a thin 2-in-1) as a rear-seat display with an HDMI/eDP controller board and a headrest mount.",
+      "difficulty": "advanced",
+      "fits_model_ids": ["dell-inspiron-1545", "dell-latitude-d830"],
+      "parts": [
+        "Laptop LCD panel with known interface (LVDS 30/40-pin or eDP)",
+        "Matching LCD controller board (HDMI/VGA in) + inverter if CCFL",
+        "12 V → board voltage DC-DC (verify board input, often 12 V)",
+        "Headrest mount or custom 3D-printed/wood bracket for your seat posts",
+        "Automotive fuse tap or accessory power with proper fusing",
+        "Optional: USB media player or phone HDMI adapter as the source"
+      ],
+      "steps": [
+        "Photograph and read the panel sticker (model, resolution, connector) before ordering a controller.",
+        "Bench-test panel + controller + power supply on a desk until you get a stable image.",
+        "Design a shallow enclosure; keep high-voltage CCFL inverter leads insulated.",
+        "Mount to the headrest; strain-relief every cable; fuse the 12 V feed close to the source.",
+        "Route cables so airbags, seat travel, and passengers stay clear."
+      ],
+      "safety": [
+        "Vehicle electrical work: disconnect the car battery before tapping power; fuse every new circuit.",
+        "CCFL inverters produce high voltage — treat as hazardous even when powered down until discharged.",
+        "Laptop Li-ion packs do not belong loose in a car cabin; recycle them — power the display from vehicle 12 V via the controller board only.",
+        "Never obstruct airbags or headrest safety function; if unsure, use a commercial headrest monitor instead."
+      ]
+    },
+    {
+      "id": "kiosk",
+      "title": "Kiosk / dashboard",
+      "summary": "Lock a laptop into a single-purpose dashboard: home status, Immich album, pinball card display, or a simple web kiosk.",
+      "difficulty": "easy",
+      "fits_model_ids": ["dell-inspiron-1545", "dell-latitude-d830", "dell-inspiron-15-5579"],
+      "parts": [
+        "Laptop with working Wi-Fi or Ethernet",
+        "Kiosk browser / Electron / Chromium --kiosk, or a dedicated dashboard OS",
+        "Wall bracket, VESA adapter (if harvesting a panel), or a printed stand",
+        "AC adapter on a switched outlet or smart plug"
+      ],
+      "steps": [
+        "Pick the URL or local app the kiosk should always show.",
+        "Configure auto-login, disable updates that steal the screen, and set Chromium/Firefox kiosk flags or a Weston/Cage session.",
+        "Mount the machine; leave USB accessible for recovery keyboards.",
+        "Document the login and recovery steps on a card taped inside the stand."
+      ],
+      "safety": [
+        "Unattended kiosks: remove or secure the battery, protect against theft, and use a GFCI/surge outlet.",
+        "Do not leave passwords on a sticky note facing the public — use a local kiosk account with minimal privileges."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "title": "Laptop Arcade Dock (InventorMike) — Cults3D",
+      "url": "https://cults3d.com/en/3d-model/game/laptop-arcade-dock",
+      "notes": "Free 3D-printed dock for 14–17\" laptops; designed around Batocera on USB. Verified listing (2026-10-28).",
+      "tags": ["3d-print", "bartop", "laptop-dock"]
+    },
+    {
+      "title": "Bartop Arcade Cabinet 15.6\" VESA Monitor — MakerWorld 3203767",
+      "url": "https://makerworld.com/en/models/3203767",
+      "notes": "Modular bartop for a 15.6\" VESA monitor (useful if you harvest a panel + controller). Indexed as model 3203767; title confirmed via third-party index (MakerWorld itself bot-walls some fetches).",
+      "tags": ["3d-print", "bartop", "vesa"]
+    },
+    {
+      "title": "3D-Printed Bartop Video Game Arcade (Vader) — Printables 1009766",
+      "url": "https://www.printables.com/model/1009766-3d-printed-bartop-video-game-arcade",
+      "notes": "3D-printed bartop cabinet (Printables model 1009766). Verified via search index (2026-10-28).",
+      "tags": ["3d-print", "bartop"]
+    },
+    {
+      "title": "WeeCade drawings (Esther Koenig)",
+      "url": "https://www.estherkoenig.dk/mame/eng/drawweecade.htm",
+      "notes": "Classic small MAME cabinet drawings. HTTP 200 verified 2026-10-28.",
+      "tags": ["wood", "plans", "bartop"]
+    },
+    {
+      "title": "Bigger Bartop Arcade Build — Holbrook Tech",
+      "url": "https://holbrooktech.weebly.com/bigger-bartop-arcade-build.html",
+      "notes": "Wood bartop build log and dimensions. HTTP 200 verified 2026-10-28.",
+      "tags": ["wood", "bartop", "build-log"]
+    },
+    {
+      "title": "Pete Clarke — Arcade / MAME build",
+      "url": "https://peteclarkez.github.io/Arcade/MameBuild/",
+      "notes": "Documented MAME/arcade cabinet build. HTTP 200 verified 2026-10-28.",
+      "tags": ["wood", "bartop", "build-log"]
+    },
+    {
+      "title": "Batocera — download & install",
+      "url": "https://batocera.org/",
+      "notes": "Linux-based retro gaming OS commonly used in laptop bartops.",
+      "tags": ["software", "bartop"]
+    }
+  ]
+}

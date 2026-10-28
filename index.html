@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recase — turn e-waste laptops into useful things</title>
+  <meta name="description" content="Guides and model specs for recasing old laptops into bartop arcades, photo frames, headrest monitors, and kiosks." />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <h1>Recase</h1>
+      <p class="tag">Turn e-waste laptops into bartops, photo stands, headrest monitors, and kiosks — by model.</p>
+      <nav class="tabs" aria-label="Sections">
+        <button type="button" data-view="models" aria-selected="true">Models</button>
+        <button type="button" data-view="projects" aria-selected="false">Projects</button>
+        <button type="button" data-view="links" aria-selected="false">Links</button>
+        <button type="button" data-view="about" aria-selected="false">About</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="panel-models" class="panel" aria-label="Laptop models"></section>
+    <section id="panel-projects" class="panel" hidden aria-label="Project guides"></section>
+    <section id="panel-links" class="panel" hidden aria-label="External links"></section>
+    <section id="panel-about" class="panel" hidden aria-label="About"></section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      Catalog updated <span id="updated"></span> ·
+      <a href="https://github.com/fordcrews/recase">GitHub</a> ·
+      <a href="CONTRIBUTING.md">Contribute</a>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
