@@ -44,6 +44,57 @@
     return text.toLowerCase().includes(q.toLowerCase());
   }
 
+
+  function conceptFigure(src, caption, title) {
+    if (!src) return "";
+    return (
+      '<figure class="concept">' +
+      '<img src="' +
+      esc(src) +
+      '" alt="' +
+      esc(title || "Concept art") +
+      '" loading="lazy" width="960" height="720" />' +
+      '<figcaption>' +
+      esc(caption || "AI-generated concept art, not a real build") +
+      "</figcaption>" +
+      "</figure>"
+    );
+  }
+
+  function renderConceptGallery(targetEl) {
+    const items = state.catalog.concept_gallery || [];
+    if (!items.length) return;
+    const wrap = document.createElement("section");
+    wrap.className = "concept-gallery";
+    wrap.setAttribute("aria-label", "Concept art gallery");
+    wrap.innerHTML =
+      "<h2>Concept gallery</h2>" +
+      '<p class="meta">Illustrations of what these projects can look like. ' +
+      "<strong>AI-generated concept art, not a real build.</strong></p>" +
+      '<div class="gallery-grid"></div>';
+    const grid = wrap.querySelector(".gallery-grid");
+    items.forEach((item) => {
+      const fig = document.createElement("button");
+      fig.type = "button";
+      fig.className = "gallery-item";
+      fig.dataset.project = item.project_id;
+      fig.innerHTML =
+        conceptFigure(item.image, item.caption, item.title) +
+        '<span class="gallery-label">' +
+        esc(item.title) +
+        "</span>";
+      fig.addEventListener("click", () => {
+        setView("projects");
+        setTimeout(() => {
+          const t = document.getElementById("project-" + item.project_id);
+          if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 50);
+      });
+      grid.appendChild(fig);
+    });
+    targetEl.insertBefore(wrap, targetEl.firstChild);
+  }
+
   function renderModels() {
     const q = state.filter.trim();
     const list = state.catalog.models.filter((m) => {
@@ -56,10 +107,12 @@
       return;
     }
     root.innerHTML =
+      '<div id="home-gallery"></div>' +
       '<input class="search" type="search" placeholder="Search models (e.g. D830, LVDS, 15.6)…" value="' +
       esc(state.filter) +
       '" id="model-search" aria-label="Search models" />' +
       '<div class="grid cards" id="model-grid"></div>';
+    renderConceptGallery($("#home-gallery"));
     const grid = $("#model-grid");
     list.forEach((m) => {
       const el = document.createElement("article");
@@ -222,6 +275,7 @@
         '<p class="meta">Difficulty: ' +
         esc(p.difficulty) +
         "</p>" +
+        conceptFigure(p.concept_image, p.concept_caption, p.title) +
         "<p>" +
         esc(p.summary) +
         "</p>" +
