@@ -293,6 +293,9 @@
         '<ol class="steps">' +
         (p.steps || []).map((x) => "<li>" + esc(x) + "</li>").join("") +
         "</ol>" +
+        (p.sections || [])
+          .map((sec) => "<h3>" + esc(sec.heading) + '</h3><ul class="parts">' + (sec.items || []).map((x) => "<li>" + esc(x) + "</li>").join("") + "</ul>")
+          .join("") +
         '<div class="safety"><strong>Safety</strong><ul>' +
         (p.safety || []).map((x) => "<li>" + esc(x) + "</li>").join("") +
         "</ul></div>";

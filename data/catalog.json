@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "models": [
     {
       "id": "dell-inspiron-1545",
@@ -9,19 +9,19 @@
       "aka": [
         "1545"
       ],
-      "year": "2008\u20132010 (approx.)",
+      "year": "2008–2010 (approx.)",
       "screen_size_in": 15.6,
       "resolutions": [
-        "1366\u00d7768 (HD)",
-        "1600\u00d7900 (HD+)"
+        "1366×768 (HD)",
+        "1600×900 (HD+)"
       ],
       "panel_interface": "LVDS",
       "panel_connector_notes": "Common replacement panels use a 40-pin LVDS connector. CCFL and LED-backlit variants exist; CCFL units need an inverter board, LED units do not.",
       "cpu": "Intel Celeron, Pentium Dual-Core, or Core 2 Duo (config-dependent)",
       "memory": "DDR2 SODIMM, dual channel; up to 8 GB possible per Dell setup guide",
-      "power_adapter": "65 W or 90 W AC adapter (100\u2013240 VAC)",
+      "power_adapter": "65 W or 90 W AC adapter (100–240 VAC)",
       "battery": "4-cell, 6-cell, or 9-cell smart Li-ion (Wh varies by pack)",
-      "ports_notes": "VGA out, 3\u00d7 USB 2.0, Ethernet, ExpressCard/34, optical drive bay (typical)",
+      "ports_notes": "VGA out, 3× USB 2.0, Ethernet, ExpressCard/34, optical drive bay (typical)",
       "gutting_notes": "Hinge and bezel screws are well documented in community tear-downs. Identify CCFL vs LED before ordering a panel. Keep the stock AC adapter for bartop/kiosk builds.",
       "unknowns": [
         "Exact panel part number on a given unit (read the sticker on the back of the LCD)",
@@ -39,11 +39,11 @@
           "url": "https://downloads.dell.com/manuals/all-products/esuprt_laptop/esuprt_inspiron_laptop/inspiron-1545_setup%20guide_en-us.pdf"
         },
         {
-          "title": "Dell Inspiron 1545 User Manual \u2014 Specifications",
+          "title": "Dell Inspiron 1545 User Manual — Specifications",
           "url": "https://www.manualsdir.com/manuals/600855/dell-inspiron-1545.html?page=62"
         },
         {
-          "title": "Inside My Laptop \u2014 Inspiron 1545 screen replacement (CCFL vs LED)",
+          "title": "Inside My Laptop — Inspiron 1545 screen replacement (CCFL vs LED)",
           "url": "https://www.insidemylaptop.com/replacing-cracked-lcd-screen-on-dell-inspiron-1545-laptop/"
         }
       ]
@@ -58,17 +58,17 @@
       "year": "2007",
       "screen_size_in": 15.4,
       "resolutions": [
-        "1280\u00d7800 (WXGA)",
-        "1680\u00d71050 (WSXGA+)",
-        "1920\u00d71200 (WUXGA)"
+        "1280×800 (WXGA)",
+        "1680×1050 (WSXGA+)",
+        "1920×1200 (WUXGA)"
       ],
       "panel_interface": "LVDS",
       "panel_connector_notes": "Replacement listings commonly cite a 30-pin LVDS connector (often top-right when viewing the panel rear). CCFL backlight with inverter. Match native resolution to the original panel.",
-      "cpu": "Intel Core 2 Duo (Socket P; T7100\u2013T7800 family common)",
+      "cpu": "Intel Core 2 Duo (Socket P; T7100–T7800 family common)",
       "memory": "DDR2 SODIMM; Dell datasheet lists up to 4 GB shared configurations; community reports higher with later BIOS",
       "power_adapter": "90 W AC adapter (Dell datasheet)",
       "battery": "Primary 6-cell/53 Wh or 9-cell/85 Wh Li-ion; optional secondary bay battery",
-      "ports_notes": "VGA, S-Video, serial, FireWire, 3\u00d7 USB (one powered D-Bay), Gigabit Ethernet, PC Card + ExpressCard, docking connector",
+      "ports_notes": "VGA, S-Video, serial, FireWire, 3× USB (one powered D-Bay), Gigabit Ethernet, PC Card + ExpressCard, docking connector",
       "gutting_notes": "Business chassis with modular D-Bay. Good candidate for keeping the chassis intact inside a dock, or harvesting the 15.4\" panel for a frame. Service manuals available from Dell.",
       "unknowns": [
         "Exact resolution and matte/glossy finish without opening the lid or checking the panel sticker",
@@ -86,7 +86,7 @@
           "url": "http://support.harlander.com/uploads/treiberdatenbank/notebooks/dell/latitude_d830/datenblatt.pdf"
         },
         {
-          "title": "MacDat \u2014 Latitude D830 specifications",
+          "title": "MacDat — Latitude D830 specifications",
           "url": "https://www.macdat.net/laptops/dell/latitude/d830.php"
         },
         {
@@ -104,22 +104,22 @@
         "P58F",
         "service tag 77CX4L2"
       ],
-      "year": "2017\u20132018 (8th-gen U-series era)",
+      "year": "2017–2018 (8th-gen U-series era)",
       "screen_size_in": 15.6,
       "resolutions": [
-        "1920\u00d71080 (FHD) touch IPS"
+        "1920×1080 (FHD) touch IPS"
       ],
       "panel_interface": "eDP",
       "panel_connector_notes": "Common OEM panel AUO B156HAB01.0 (Dell P/N family 0079Y) uses eDP 2-lane with a 40-pin connector and on-cell touch. Confirm the sticker on your panel before buying a controller board.",
-      "cpu": "8th-generation Intel Core i5 or i7 (config-dependent \u2014 look up service tag 77CX4L2 on Dell Support for the exact SKU)",
-      "memory": "DDR4 SODIMM (max capacity config-dependent; retail configs up to 16\u201332 GB reported)",
-      "power_adapter": "45 W AC adapter, 19.5 VDC, 4.5 mm barrel (100\u2013240 VAC)",
+      "cpu": "8th-generation Intel Core i5 or i7 (config-dependent — look up service tag 77CX4L2 on Dell Support for the exact SKU)",
+      "memory": "DDR4 SODIMM (max capacity config-dependent; retail configs up to 16–32 GB reported)",
+      "power_adapter": "45 W AC adapter, 19.5 VDC, 4.5 mm barrel (100–240 VAC)",
       "battery": "3-cell smart Li-ion, 42 Wh",
-      "ports_notes": "HDMI 1.4b, USB-A (incl. USB 3.1 Gen 1), SD card reader, combo audio; Wi-Fi + Bluetooth typical. 360\u00b0 hinge (laptop/tablet/tent/stand).",
-      "gutting_notes": "Touch + 360\u00b0 hinge make this a strong photo-frame or kiosk candidate without heavy modification. For bartop, prefer keeping the whole chassis in a dock rather than transplanting the eDP touch panel unless you have a matching controller. Thin chassis \u2014 remove the battery carefully before any case work.",
+      "ports_notes": "HDMI 1.4b, USB-A (incl. USB 3.1 Gen 1), SD card reader, combo audio; Wi-Fi + Bluetooth typical. 360° hinge (laptop/tablet/tent/stand).",
+      "gutting_notes": "Touch + 360° hinge make this a strong photo-frame or kiosk candidate without heavy modification. For bartop, prefer keeping the whole chassis in a dock rather than transplanting the eDP touch panel unless you have a matching controller. Thin chassis — remove the battery carefully before any case work.",
       "unknowns": [
         "Exact CPU, RAM, and storage for service tag 77CX4L2 until checked on Dell Support",
-        "Whether this unit\u2019s panel is exactly B156HAB01.0 vs another FHD touch SKU"
+        "Whether this unit’s panel is exactly B156HAB01.0 vs another FHD touch SKU"
       ],
       "fits_projects": [
         "bartop-arcade",
@@ -132,12 +132,438 @@
           "url": "https://objects.icecat.biz/objects/mmo_38337286_1508747607_8683_1857.pdf"
         },
         {
-          "title": "Dell support manuals \u2014 Inspiron 15 5579 2-in-1",
+          "title": "Dell support manuals — Inspiron 15 5579 2-in-1",
           "url": "https://www.dell.com/support/manuals/en-us/inspiron-15-5579-2-in-1-laptop/inspiron-15-5579-setup-specifications/storage?guid=guid-82b4a9a6-4ec0-4e66-baf8-2f8226acf747&lang=en-us"
         },
         {
-          "title": "Panelook \u2014 AUO B156HAB01.0 (eDP 2-lane, 40-pin)",
+          "title": "Panelook — AUO B156HAB01.0 (eDP 2-lane, 40-pin)",
           "url": "https://www.panelook.com/B156HAB01.0_AUO_15.6_Assembly_parameter_30327.html"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-thinkpad-t420",
+      "brand": "Lenovo",
+      "model": "ThinkPad T420",
+      "aka": [
+        "T420",
+        "4177",
+        "4236"
+      ],
+      "year": "2011",
+      "screen_size_in": 14.0,
+      "resolutions": [
+        "1366×768 (HD)",
+        "1600×900 (HD+)"
+      ],
+      "panel_interface": "LVDS",
+      "panel_connector_notes": "LVDS per ThinkWiki and sevarg.net; HD and HD+ panels use different LCD cables (see ThinkWiki HD+ upgrade page).",
+      "cpu": "2nd-gen Intel Core i3/i5/i7 (config-dependent)",
+      "memory": "DDR3, two SO-DIMM sockets, 8 GB max per PSREF",
+      "power_adapter": "20 V, 65 W (integrated graphics) or 90 W (NVIDIA Optimus models) per PSREF",
+      "battery": "Li-ion 4/6/9-cell (6-cell 57 Wh, 9-cell 94 Wh)",
+      "ports_notes": "VGA, DisplayPort, USB 2.0, eSATA combo, Ethernet, ExpressCard/34",
+      "gutting_notes": "Lenovo ThinkPads list a 7-character machine type on the bottom label; use it with PSREF to confirm your exact config.",
+      "unknowns": [
+        "Panel part number on your unit",
+        "Exact pin count of your LCD cable"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Lenovo PSREF — ThinkPad withdrawn book 2012 (T420, T520, X220)",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf"
+        },
+        {
+          "title": "ThinkWiki — Replacing T430 screen (T420/T430 LVDS vs T440p/T440s eDP)",
+          "url": "https://www.thinkwiki.org/wiki/Replacing_T430_screen_with_a_better_one"
+        },
+        {
+          "title": "sevarg.net — ThinkPad T430s IPS upgrade: T4x0 laptops use LVDS",
+          "url": "https://www.sevarg.net/2019/02/10/thinkpad-t430s-ips-screen-upgrade/"
+        },
+        {
+          "title": "ThinkWiki — T420 and T430 HD+ screen upgrade",
+          "url": "https://www.thinkwiki.org/wiki/T420_and_T430_HD%2B_Screen_Upgrade"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-thinkpad-t430",
+      "brand": "Lenovo",
+      "model": "ThinkPad T430",
+      "aka": [
+        "T430",
+        "2349"
+      ],
+      "year": "2012",
+      "screen_size_in": 14.0,
+      "resolutions": [
+        "1366×768 (HD)",
+        "1600×900 (HD+)"
+      ],
+      "panel_interface": "LVDS",
+      "panel_connector_notes": "LVDS per ThinkWiki and sevarg.net. eDP panels (e.g. T440p FHD) need a dedicated converter board with panel-specific firmware.",
+      "cpu": "3rd-gen (some 2nd-gen) Intel Core i5/i7 (config-dependent)",
+      "memory": "DDR3, two SO-DIMM sockets, 16 GB max per PSREF",
+      "power_adapter": "20 V, 65 W or 90 W per PSREF (discrete-GPU models require 90 W)",
+      "battery": "Li-ion 6-cell (57 Wh) or 9-cell (94 Wh)",
+      "ports_notes": "VGA, Mini DisplayPort, 2× USB 3.0, 2× USB 2.0, Ethernet, ExpressCard/34",
+      "gutting_notes": "Lenovo ThinkPads list a 7-character machine type on the bottom label; use it with PSREF to confirm your exact config.",
+      "unknowns": [
+        "Panel part number on your unit"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Lenovo PSREF — ThinkPad T430 (withdrawn)",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T430.pdf"
+        },
+        {
+          "title": "ThinkWiki — Replacing T430 screen (T420/T430 LVDS vs T440p/T440s eDP)",
+          "url": "https://www.thinkwiki.org/wiki/Replacing_T430_screen_with_a_better_one"
+        },
+        {
+          "title": "sevarg.net — ThinkPad T430s IPS upgrade: T4x0 laptops use LVDS",
+          "url": "https://www.sevarg.net/2019/02/10/thinkpad-t430s-ips-screen-upgrade/"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-thinkpad-t440p",
+      "brand": "Lenovo",
+      "model": "ThinkPad T440p",
+      "aka": [
+        "T440p",
+        "20AN",
+        "20AW"
+      ],
+      "year": "2013–2014",
+      "screen_size_in": 14.0,
+      "resolutions": [
+        "1366×768 (HD)",
+        "1600×900 (HD+)",
+        "1920×1080 (FHD IPS)"
+      ],
+      "panel_interface": "eDP",
+      "panel_connector_notes": "eDP, 30-pin per ThinkWiki and ThinkPads Forum reports. Avoid replacement panels shipped with 40-to-30-pin adapters.",
+      "cpu": "4th-gen Intel Core i5/i7 (config-dependent; some with NVIDIA GT 730M)",
+      "memory": "See PSREF for your machine type",
+      "power_adapter": "65 W, 90 W, or 135 W AC adapter per PSREF (config-dependent)",
+      "battery": "Li-ion, removable (capacity varies by pack; see PSREF)",
+      "ports_notes": "See PSREF",
+      "gutting_notes": "Lenovo ThinkPads list a 7-character machine type on the bottom label; use it with PSREF to confirm your exact config.",
+      "unknowns": [
+        "Panel part number on your unit",
+        "Battery capacity of your pack"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Lenovo PSREF — ThinkPad T440p (withdrawn)",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T440p.pdf"
+        },
+        {
+          "title": "ThinkWiki — Replacing T430 screen (T420/T430 LVDS vs T440p/T440s eDP)",
+          "url": "https://www.thinkwiki.org/wiki/Replacing_T430_screen_with_a_better_one"
+        },
+        {
+          "title": "ThinkPads Forum — T440p 30-pin eDP panel thread",
+          "url": "https://forum.thinkpads.com/viewtopic.php?t=133499"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-thinkpad-t520",
+      "brand": "Lenovo",
+      "model": "ThinkPad T520",
+      "aka": [
+        "T520",
+        "4239",
+        "4240",
+        "4242"
+      ],
+      "year": "2011",
+      "screen_size_in": 15.6,
+      "resolutions": [
+        "1366×768 (HD)",
+        "1600×900 (HD+)",
+        "1920×1080 (FHD)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "2nd-gen Intel Core i3/i5/i7 (config-dependent)",
+      "memory": "DDR3 SO-DIMM (see PSREF)",
+      "power_adapter": "65 W or 90 W AC adapter per PSREF (config-dependent)",
+      "battery": "Li-ion, removable (see PSREF)",
+      "ports_notes": "See PSREF",
+      "gutting_notes": "Lenovo ThinkPads list a 7-character machine type on the bottom label; use it with PSREF to confirm your exact config.",
+      "unknowns": [
+        "Panel interface (LVDS vs eDP) — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Lenovo PSREF — ThinkPad withdrawn book 2012 (T420, T520, X220)",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-thinkpad-x220",
+      "brand": "Lenovo",
+      "model": "ThinkPad X220",
+      "aka": [
+        "X220",
+        "4290",
+        "4291"
+      ],
+      "year": "2011",
+      "screen_size_in": 12.5,
+      "resolutions": [
+        "1366×768 (HD; standard or Premium IPS)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified from a primary source here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "2nd-gen Intel Core i3/i5/i7 (config-dependent)",
+      "memory": "DDR3 SO-DIMM (see PSREF)",
+      "power_adapter": "65 W AC adapter per PSREF",
+      "battery": "Li-ion, removable (see PSREF)",
+      "ports_notes": "See PSREF",
+      "gutting_notes": "Lenovo ThinkPads list a 7-character machine type on the bottom label; use it with PSREF to confirm your exact config. Small 12.5\" panel suits headrest and photo-frame builds.",
+      "unknowns": [
+        "Panel interface — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Lenovo PSREF — ThinkPad withdrawn book 2012 (T420, T520, X220)",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lenovo-thinkpad-x230",
+      "brand": "Lenovo",
+      "model": "ThinkPad X230",
+      "aka": [
+        "X230",
+        "2320",
+        "2325"
+      ],
+      "year": "2012",
+      "screen_size_in": 12.5,
+      "resolutions": [
+        "1366×768 (HD; standard or Premium IPS)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified from a primary source here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "3rd-gen Intel Core i3/i5/i7 (config-dependent)",
+      "memory": "DDR3 SO-DIMM (see PSREF)",
+      "power_adapter": "65 W AC adapter per PSREF",
+      "battery": "Li-ion, removable (see PSREF)",
+      "ports_notes": "See PSREF",
+      "gutting_notes": "Lenovo ThinkPads list a 7-character machine type on the bottom label; use it with PSREF to confirm your exact config.",
+      "unknowns": [
+        "Panel interface — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Lenovo PSREF — ThinkPad X230 (withdrawn)",
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dell-latitude-e6420",
+      "brand": "Dell",
+      "model": "Latitude E6420",
+      "aka": [
+        "E6420",
+        "P15G"
+      ],
+      "year": "2011",
+      "screen_size_in": 14.0,
+      "resolutions": [
+        "1366×768 (HD, optional 2-finger touch)",
+        "1600×900 (HD+)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "Intel Core i3/i5/i7 dual- and quad-core (2nd gen)",
+      "memory": "DDR3 1333 MHz, 2 slots",
+      "power_adapter": "65 W or 90 W AC adapter (150 W for BFR/PVC-free option) per Dell spec sheet",
+      "battery": "4-cell 40 Wh, 6-cell 60 Wh, 9-cell 87/97 Wh",
+      "ports_notes": "VGA, HDMI, 4× USB 2.0 (1 eSATA combo), Ethernet, ExpressCard 54, dock connector",
+      "gutting_notes": "Removable battery and E-Module bay make it an easy dock-style bartop or kiosk.",
+      "unknowns": [
+        "Panel interface — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Dell Latitude E6420 spec sheet",
+          "url": "https://i.dell.com/sites/content/shared-content/data-sheets/en/documents/latitude-e6420-spec-sheet.pdf"
+        },
+        {
+          "title": "Dell Latitude E6420/E6520 Setup and Features",
+          "url": "https://downloads.dell.com/manuals/all-products/esuprt_laptop/esuprt_latitude_laptop/latitude-e6420_setup%20guide_en-us.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hp-elitebook-8460p",
+      "brand": "HP",
+      "model": "EliteBook 8460p",
+      "aka": [
+        "8460p"
+      ],
+      "year": "2011",
+      "screen_size_in": 14.0,
+      "resolutions": [
+        "1366×768 (HD)",
+        "1600×900 (HD+)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "2nd-gen Intel Core i5/i7 (config-dependent)",
+      "memory": "DDR3 1333 MHz, 2 slots, up to 16 GB per HP maintenance guide",
+      "power_adapter": "65 W Smart AC adapter (integrated graphics, non-quad-core) or 90 W (discrete or quad-core) per HP QuickSpecs",
+      "battery": "9-cell 100 Wh, 6-cell 62 Wh, or 6-cell 55 Wh",
+      "ports_notes": "DisplayPort, VGA, USB, Ethernet, upgrade bay (see QuickSpecs)",
+      "gutting_notes": "Aluminum lid; check QuickSpecs for your config.",
+      "unknowns": [
+        "Panel interface — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "HP EliteBook 8460p/8560p QuickSpecs",
+          "url": "https://cdn.cs.1worldsync.com/2f/3f/2f3fc007-912e-4a83-9a02-536c071ce2a4.pdf"
+        },
+        {
+          "title": "HP EliteBook 8460p Maintenance and Service Guide",
+          "url": "https://h10032.www1.hp.com/ctg/Manual/c03015458.pdf"
+        }
+      ]
+    },
+    {
+      "id": "apple-macbook-pro-13-mid-2012",
+      "brand": "Apple",
+      "model": "MacBook Pro (13-inch, Mid 2012)",
+      "aka": [
+        "A1278",
+        "MacBookPro9,2"
+      ],
+      "year": "2012",
+      "screen_size_in": 13.3,
+      "resolutions": [
+        "1280×800 (native)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "Intel Core i5 or i7 (3rd gen), Intel HD Graphics 4000",
+      "memory": "See Apple tech specs",
+      "power_adapter": "60 W MagSafe power adapter per Apple",
+      "battery": "Built-in 63.5 Wh lithium-polymer (glued pouch — see safety)",
+      "ports_notes": "Thunderbolt, USB 3, FireWire 800, Ethernet, SD (see Apple)",
+      "gutting_notes": "Last 13\" MacBook Pro with an optical drive; non-removable pouch battery requires extra care.",
+      "unknowns": [
+        "Panel interface — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "bartop-arcade",
+        "photo-frame",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Apple — MacBook Pro (13-inch, Mid 2012) Tech Specs",
+          "url": "https://support.apple.com/en-us/111958"
+        }
+      ]
+    },
+    {
+      "id": "apple-macbook-air-13-2017",
+      "brand": "Apple",
+      "model": "MacBook Air (13-inch, 2017)",
+      "aka": [
+        "A1466",
+        "MacBookAir7,2"
+      ],
+      "year": "2017",
+      "screen_size_in": 13.3,
+      "resolutions": [
+        "1440×900 (native)"
+      ],
+      "panel_interface": "Unknown",
+      "panel_connector_notes": "Not verified here. Not verified from a primary source; read the panel part-number sticker and look it up.",
+      "cpu": "Intel Core i5 or i7 (5th gen), Intel HD Graphics 6000",
+      "memory": "See Apple tech specs",
+      "power_adapter": "45 W MagSafe 2 power adapter per Apple",
+      "battery": "Built-in 54 Wh lithium-polymer (glued — see safety)",
+      "ports_notes": "Thunderbolt 2, 2× USB 3, SDXC (see Apple)",
+      "gutting_notes": "Thin, light, and fanless-quiet at idle; good photo frame or kiosk kept whole.",
+      "unknowns": [
+        "Panel interface — not verified",
+        "Panel part number"
+      ],
+      "fits_projects": [
+        "photo-frame",
+        "headrest-monitor",
+        "kiosk"
+      ],
+      "sources": [
+        {
+          "title": "Apple — MacBook Air (13-inch, 2017) Technical Specifications",
+          "url": "https://support.apple.com/en-us/111924"
         }
       ]
     }
@@ -151,10 +577,19 @@
       "fits_model_ids": [
         "dell-inspiron-1545",
         "dell-latitude-d830",
-        "dell-inspiron-15-5579"
+        "dell-inspiron-15-5579",
+        "lenovo-thinkpad-t420",
+        "lenovo-thinkpad-t430",
+        "lenovo-thinkpad-t440p",
+        "lenovo-thinkpad-t520",
+        "lenovo-thinkpad-x220",
+        "lenovo-thinkpad-x230",
+        "dell-latitude-e6420",
+        "hp-elitebook-8460p",
+        "apple-macbook-pro-13-mid-2012"
       ],
       "parts": [
-        "Working laptop (14\u201317\" class fits most docks; confirm your design)",
+        "Working laptop (14–17\" class fits most docks; confirm your design)",
         "USB arcade joystick + buttons kit (one player)",
         "USB flash drive (16 GB+) for Batocera, or install Batocera to internal storage",
         "3D-printed dock/cabinet OR wood/MDF panels from published plans",
@@ -164,29 +599,92 @@
       "steps": [
         "Decide dock vs gut: dock keeps the laptop intact (easier, reversible); gutting transplants the panel and board into a custom case (harder, better fit).",
         "Download Batocera from batocera.org and write it to USB (or install to disk).",
-        "Boot once on a desk, update Batocera, set video mode to the laptop\u2019s native resolution, and test a controller.",
-        "Print or cut the cabinet. InventorMike\u2019s Laptop Arcade Dock fits 14\u201317\" laptops; wood plans (WeeCade, Holbrook, Pete Clarke) need measuring your lid thickness and bezel.",
+        "Boot once on a desk, update Batocera, set video mode to the laptop’s native resolution, and test a controller.",
+        "Print or cut the cabinet. InventorMike’s Laptop Arcade Dock fits 14–17\" laptops; wood plans (WeeCade, Holbrook, Pete Clarke) need measuring your lid thickness and bezel.",
         "Mount the control panel, route USB to the laptop, and secure the chassis so vents stay clear.",
         "Cable-manage the AC adapter; leave a service hatch so you can remove the battery later."
       ],
       "safety": [
         "Remove or disconnect the Li-ion battery before drilling, sawing, or soldering near the chassis.",
-        "Never puncture, crush, or short a laptop battery \u2014 swollen packs go to proper e-waste recycling.",
+        "Never puncture, crush, or short a laptop battery — swollen packs go to proper e-waste recycling.",
         "Keep intake/exhaust vents unobstructed; bartops can cook a Core 2 Duo or U-series CPU.",
         "Use the original wattage (or higher, Dell-compatible) AC adapter only."
       ],
       "concept_image": "images/bartop.jpg",
-      "concept_caption": "AI-generated concept art, not a real build"
+      "concept_caption": "AI-generated concept art, not a real build",
+      "sections": [
+        {
+          "heading": "Installing Batocera",
+          "items": [
+            "Download the x86_64 image from batocera.org/download.",
+            "Flash it to a 16 GB+ USB stick or SSD with balenaEtcher or Rufus.",
+            "Boot the laptop from USB (F12 on Dell, F12/Enter on Lenovo, F9 on HP, hold Option on Mac). Enable legacy/CSM boot on older BIOSes if it won't show up.",
+            "Optional: Main Menu → System Settings → Install Batocera on a new disk to move it to the internal drive (erases that drive).",
+            "Copy ROMs you legally own over the network share (\\\\BATOCERA\\share) or to the share partition; add BIOS files as needed.",
+            "Map the USB arcade encoder under Controller Settings, and set the video output to the panel's native resolution."
+          ]
+        },
+        {
+          "heading": "Reusing a bare panel: LVDS/eDP controller boards",
+          "items": [
+            "Read the sticker on the back of the panel (e.g. LP156WH4-TLA1, B156HAB01.0, N140BGE-L23). That part number — not the laptop model — decides which board you need.",
+            "Look the part number up on panelook.com (or the maker's datasheet) to confirm interface (LVDS vs eDP), pin count (LVDS often 40-pin; eDP usually 30-pin, 40-pin for touch/high-res), lanes, and backlight type (LED vs CCFL).",
+            "Search marketplaces for '<panel part number> controller board' (e.g. 'LP156WH4 driver board'). Generic boards based on the RTD2556/RTD2513 or M.NT68676 chips take HDMI/VGA in and drive LVDS or eDP out; sellers flash firmware for your exact panel, so give them the part number.",
+            "Buy the board with its matching panel cable; LVDS cables are not interchangeable with eDP cables. Check pin 1 orientation before powering on.",
+            "CCFL-backlit panels (common before ~2009) also need a high-voltage inverter — prefer LED-backlit panels for new builds.",
+            "Converter boards that keep the original laptop (e.g. eDP panel into an LVDS ThinkPad) use panel-specific firmware; only listed panels work."
+          ]
+        },
+        {
+          "heading": "Power options",
+          "items": [
+            "Keep the laptop motherboard: run everything from the original AC adapter (wattage listed on each model page). Simplest; you get the CPU, Wi-Fi, and battery-free operation for free.",
+            "Bare panel + controller board: most boards take 12 V DC (typically 2–4 A; check the listing). Use a quality 12 V brick or a 12 V rail in the cabinet; feed a Raspberry Pi or mini PC from a separate 5 V supply or buck converter.",
+            "Car/headrest builds: use a fused 12 V accessory feed or a USB-C PD trigger board set to 12 V; never wire straight to the battery without a fuse.",
+            "Many laptops run without a battery on AC alone; some (and many Apple models) throttle without one — test before final assembly.",
+            "Do not swap in an adapter with a different voltage or connector; matching wattage or higher at the same voltage is fine."
+          ]
+        },
+        {
+          "heading": "Cooling",
+          "items": [
+            "Keep the original fan and heatsink if you keep the board; clean dust and replace dried thermal paste.",
+            "Leave intake and exhaust paths open in the case — at least as much open area as the laptop's own vents; add a 40–80 mm 5 V/12 V fan if the case is closed.",
+            "Panel-only builds run cool, but give controller boards and inverters airflow; they get warm.",
+            "Monitor temps under load (Batocera: system information; Linux: `sensors`) before closing up."
+          ]
+        },
+        {
+          "heading": "Battery removal and disposal",
+          "items": [
+            "Power off, unplug AC, then remove or disconnect the battery before any other work. Removable packs slide out; internal packs unplug from the board first.",
+            "Glued pouch cells (MacBooks, ultrabooks): use adhesive remover (isopropyl) and plastic tools only — never pry with metal or bend the cell.",
+            "A swollen, dented, hot, or hissing pack: stop, move it outdoors onto concrete or into a metal bin with sand, and do not charge it.",
+            "Tape the terminals and take packs to a battery drop-off (Call2Recycle locator, Home Depot/Lowe's/Best Buy bins, or municipal hazardous waste). Never put Li-ion in household trash or curbside recycling.",
+            "If reusing a healthy pack, keep the original BMS; never charge bare cells without a proper charger."
+          ]
+        }
+      ]
     },
     {
       "id": "photo-frame",
       "title": "Digital photo frame / stand",
-      "summary": "Run a full-screen slideshow or Immich/Jellyfin client on an old laptop propped as a frame \u2014 tent mode on 2-in-1s is ideal.",
+      "summary": "Run a full-screen slideshow or Immich/Jellyfin client on an old laptop propped as a frame — tent mode on 2-in-1s is ideal.",
       "difficulty": "easy",
       "fits_model_ids": [
         "dell-inspiron-1545",
         "dell-latitude-d830",
-        "dell-inspiron-15-5579"
+        "dell-inspiron-15-5579",
+        "lenovo-thinkpad-t420",
+        "lenovo-thinkpad-t430",
+        "lenovo-thinkpad-t440p",
+        "lenovo-thinkpad-t520",
+        "lenovo-thinkpad-x220",
+        "lenovo-thinkpad-x230",
+        "dell-latitude-e6420",
+        "hp-elitebook-8460p",
+        "apple-macbook-pro-13-mid-2012",
+        "apple-macbook-air-13-2017"
       ],
       "parts": [
         "Laptop with a decent screen",
@@ -199,16 +697,65 @@
         "Clean install a lightweight OS or configure the existing OS for auto-login + fullscreen slideshow.",
         "Point the slideshow at your photo library (local sync or network).",
         "Disable sleep, dimming, and noisy fans where possible; set a conservative brightness.",
-        "Build or print a stand that tips the screen back 10\u201320\u00b0, or use the 5579\u2019s hinge modes.",
+        "Build or print a stand that tips the screen back 10–20°, or use the 5579’s hinge modes.",
         "Hide cables; label the power brick wattage on the frame back."
       ],
       "safety": [
-        "Always-on frames: remove the battery if the vendor supports AC-only operation, or leave it installed but cool and monitored \u2014 heat + aging Li-ion is the risk.",
+        "Always-on frames: remove the battery if the vendor supports AC-only operation, or leave it installed but cool and monitored — heat + aging Li-ion is the risk.",
         "Do not block vents behind a wall mount.",
         "Use a surge-protected outlet for unattended devices."
       ],
       "concept_image": "images/photo-frame.jpg",
-      "concept_caption": "AI-generated concept art, not a real build"
+      "concept_caption": "AI-generated concept art, not a real build",
+      "sections": [
+        {
+          "heading": "Reusing a bare panel: LVDS/eDP controller boards",
+          "items": [
+            "Read the sticker on the back of the panel (e.g. LP156WH4-TLA1, B156HAB01.0, N140BGE-L23). That part number — not the laptop model — decides which board you need.",
+            "Look the part number up on panelook.com (or the maker's datasheet) to confirm interface (LVDS vs eDP), pin count (LVDS often 40-pin; eDP usually 30-pin, 40-pin for touch/high-res), lanes, and backlight type (LED vs CCFL).",
+            "Search marketplaces for '<panel part number> controller board' (e.g. 'LP156WH4 driver board'). Generic boards based on the RTD2556/RTD2513 or M.NT68676 chips take HDMI/VGA in and drive LVDS or eDP out; sellers flash firmware for your exact panel, so give them the part number.",
+            "Buy the board with its matching panel cable; LVDS cables are not interchangeable with eDP cables. Check pin 1 orientation before powering on.",
+            "CCFL-backlit panels (common before ~2009) also need a high-voltage inverter — prefer LED-backlit panels for new builds.",
+            "Converter boards that keep the original laptop (e.g. eDP panel into an LVDS ThinkPad) use panel-specific firmware; only listed panels work."
+          ]
+        },
+        {
+          "heading": "Power options",
+          "items": [
+            "Keep the laptop motherboard: run everything from the original AC adapter (wattage listed on each model page). Simplest; you get the CPU, Wi-Fi, and battery-free operation for free.",
+            "Bare panel + controller board: most boards take 12 V DC (typically 2–4 A; check the listing). Use a quality 12 V brick or a 12 V rail in the cabinet; feed a Raspberry Pi or mini PC from a separate 5 V supply or buck converter.",
+            "Car/headrest builds: use a fused 12 V accessory feed or a USB-C PD trigger board set to 12 V; never wire straight to the battery without a fuse.",
+            "Many laptops run without a battery on AC alone; some (and many Apple models) throttle without one — test before final assembly.",
+            "Do not swap in an adapter with a different voltage or connector; matching wattage or higher at the same voltage is fine."
+          ]
+        },
+        {
+          "heading": "Software",
+          "items": [
+            "Keep the laptop: install a lightweight Linux (e.g. Debian/Raspberry Pi OS-style desktop) and run a browser kiosk pointed at your photo server or a local slideshow (feh, Immich/Google Photos album page).",
+            "Panel + Raspberry Pi: Pi HDMI into the controller board; run a slideshow app or a full-screen browser."
+          ]
+        },
+        {
+          "heading": "Cooling",
+          "items": [
+            "Keep the original fan and heatsink if you keep the board; clean dust and replace dried thermal paste.",
+            "Leave intake and exhaust paths open in the case — at least as much open area as the laptop's own vents; add a 40–80 mm 5 V/12 V fan if the case is closed.",
+            "Panel-only builds run cool, but give controller boards and inverters airflow; they get warm.",
+            "Monitor temps under load (Batocera: system information; Linux: `sensors`) before closing up."
+          ]
+        },
+        {
+          "heading": "Battery removal and disposal",
+          "items": [
+            "Power off, unplug AC, then remove or disconnect the battery before any other work. Removable packs slide out; internal packs unplug from the board first.",
+            "Glued pouch cells (MacBooks, ultrabooks): use adhesive remover (isopropyl) and plastic tools only — never pry with metal or bend the cell.",
+            "A swollen, dented, hot, or hissing pack: stop, move it outdoors onto concrete or into a metal bin with sand, and do not charge it.",
+            "Tape the terminals and take packs to a battery drop-off (Call2Recycle locator, Home Depot/Lowe's/Best Buy bins, or municipal hazardous waste). Never put Li-ion in household trash or curbside recycling.",
+            "If reusing a healthy pack, keep the original BMS; never charge bare cells without a proper charger."
+          ]
+        }
+      ]
     },
     {
       "id": "headrest-monitor",
@@ -217,12 +764,21 @@
       "difficulty": "advanced",
       "fits_model_ids": [
         "dell-inspiron-1545",
-        "dell-latitude-d830"
+        "dell-latitude-d830",
+        "lenovo-thinkpad-t420",
+        "lenovo-thinkpad-t430",
+        "lenovo-thinkpad-t440p",
+        "lenovo-thinkpad-t520",
+        "lenovo-thinkpad-x220",
+        "lenovo-thinkpad-x230",
+        "dell-latitude-e6420",
+        "hp-elitebook-8460p",
+        "apple-macbook-air-13-2017"
       ],
       "parts": [
         "Laptop LCD panel with known interface (LVDS 30/40-pin or eDP)",
         "Matching LCD controller board (HDMI/VGA in) + inverter if CCFL",
-        "12 V \u2192 board voltage DC-DC (verify board input, often 12 V)",
+        "12 V → board voltage DC-DC (verify board input, often 12 V)",
         "Headrest mount or custom 3D-printed/wood bracket for your seat posts",
         "Automotive fuse tap or accessory power with proper fusing",
         "Optional: USB media player or phone HDMI adapter as the source"
@@ -236,12 +792,62 @@
       ],
       "safety": [
         "Vehicle electrical work: disconnect the car battery before tapping power; fuse every new circuit.",
-        "CCFL inverters produce high voltage \u2014 treat as hazardous even when powered down until discharged.",
-        "Laptop Li-ion packs do not belong loose in a car cabin; recycle them \u2014 power the display from vehicle 12 V via the controller board only.",
+        "CCFL inverters produce high voltage — treat as hazardous even when powered down until discharged.",
+        "Laptop Li-ion packs do not belong loose in a car cabin; recycle them — power the display from vehicle 12 V via the controller board only.",
         "Never obstruct airbags or headrest safety function; if unsure, use a commercial headrest monitor instead."
       ],
       "concept_image": "images/headrest-monitor.jpg",
-      "concept_caption": "AI-generated concept art, not a real build"
+      "concept_caption": "AI-generated concept art, not a real build",
+      "sections": [
+        {
+          "heading": "Reusing a bare panel: LVDS/eDP controller boards",
+          "items": [
+            "Read the sticker on the back of the panel (e.g. LP156WH4-TLA1, B156HAB01.0, N140BGE-L23). That part number — not the laptop model — decides which board you need.",
+            "Look the part number up on panelook.com (or the maker's datasheet) to confirm interface (LVDS vs eDP), pin count (LVDS often 40-pin; eDP usually 30-pin, 40-pin for touch/high-res), lanes, and backlight type (LED vs CCFL).",
+            "Search marketplaces for '<panel part number> controller board' (e.g. 'LP156WH4 driver board'). Generic boards based on the RTD2556/RTD2513 or M.NT68676 chips take HDMI/VGA in and drive LVDS or eDP out; sellers flash firmware for your exact panel, so give them the part number.",
+            "Buy the board with its matching panel cable; LVDS cables are not interchangeable with eDP cables. Check pin 1 orientation before powering on.",
+            "CCFL-backlit panels (common before ~2009) also need a high-voltage inverter — prefer LED-backlit panels for new builds.",
+            "Converter boards that keep the original laptop (e.g. eDP panel into an LVDS ThinkPad) use panel-specific firmware; only listed panels work."
+          ]
+        },
+        {
+          "heading": "Power options",
+          "items": [
+            "Keep the laptop motherboard: run everything from the original AC adapter (wattage listed on each model page). Simplest; you get the CPU, Wi-Fi, and battery-free operation for free.",
+            "Bare panel + controller board: most boards take 12 V DC (typically 2–4 A; check the listing). Use a quality 12 V brick or a 12 V rail in the cabinet; feed a Raspberry Pi or mini PC from a separate 5 V supply or buck converter.",
+            "Car/headrest builds: use a fused 12 V accessory feed or a USB-C PD trigger board set to 12 V; never wire straight to the battery without a fuse.",
+            "Many laptops run without a battery on AC alone; some (and many Apple models) throttle without one — test before final assembly.",
+            "Do not swap in an adapter with a different voltage or connector; matching wattage or higher at the same voltage is fine."
+          ]
+        },
+        {
+          "heading": "Mounting and safety in a vehicle",
+          "items": [
+            "Mount to the headrest posts with a rigid bracket; nothing should come loose in a crash. Cover sharp panel edges and glass.",
+            "Panel + controller + streaming stick (or Pi) is lighter and safer than a full laptop.",
+            "Route wiring away from airbags and seat mechanisms; never in the driver's view."
+          ]
+        },
+        {
+          "heading": "Cooling",
+          "items": [
+            "Keep the original fan and heatsink if you keep the board; clean dust and replace dried thermal paste.",
+            "Leave intake and exhaust paths open in the case — at least as much open area as the laptop's own vents; add a 40–80 mm 5 V/12 V fan if the case is closed.",
+            "Panel-only builds run cool, but give controller boards and inverters airflow; they get warm.",
+            "Monitor temps under load (Batocera: system information; Linux: `sensors`) before closing up."
+          ]
+        },
+        {
+          "heading": "Battery removal and disposal",
+          "items": [
+            "Power off, unplug AC, then remove or disconnect the battery before any other work. Removable packs slide out; internal packs unplug from the board first.",
+            "Glued pouch cells (MacBooks, ultrabooks): use adhesive remover (isopropyl) and plastic tools only — never pry with metal or bend the cell.",
+            "A swollen, dented, hot, or hissing pack: stop, move it outdoors onto concrete or into a metal bin with sand, and do not charge it.",
+            "Tape the terminals and take packs to a battery drop-off (Call2Recycle locator, Home Depot/Lowe's/Best Buy bins, or municipal hazardous waste). Never put Li-ion in household trash or curbside recycling.",
+            "If reusing a healthy pack, keep the original BMS; never charge bare cells without a proper charger."
+          ]
+        }
+      ]
     },
     {
       "id": "kiosk",
@@ -251,7 +857,17 @@
       "fits_model_ids": [
         "dell-inspiron-1545",
         "dell-latitude-d830",
-        "dell-inspiron-15-5579"
+        "dell-inspiron-15-5579",
+        "lenovo-thinkpad-t420",
+        "lenovo-thinkpad-t430",
+        "lenovo-thinkpad-t440p",
+        "lenovo-thinkpad-t520",
+        "lenovo-thinkpad-x220",
+        "lenovo-thinkpad-x230",
+        "dell-latitude-e6420",
+        "hp-elitebook-8460p",
+        "apple-macbook-pro-13-mid-2012",
+        "apple-macbook-air-13-2017"
       ],
       "parts": [
         "Laptop with working Wi-Fi or Ethernet",
@@ -267,15 +883,65 @@
       ],
       "safety": [
         "Unattended kiosks: remove or secure the battery, protect against theft, and use a GFCI/surge outlet.",
-        "Do not leave passwords on a sticky note facing the public \u2014 use a local kiosk account with minimal privileges."
+        "Do not leave passwords on a sticky note facing the public — use a local kiosk account with minimal privileges."
+      ],
+      "sections": [
+        {
+          "heading": "Power options",
+          "items": [
+            "Keep the laptop motherboard: run everything from the original AC adapter (wattage listed on each model page). Simplest; you get the CPU, Wi-Fi, and battery-free operation for free.",
+            "Bare panel + controller board: most boards take 12 V DC (typically 2–4 A; check the listing). Use a quality 12 V brick or a 12 V rail in the cabinet; feed a Raspberry Pi or mini PC from a separate 5 V supply or buck converter.",
+            "Car/headrest builds: use a fused 12 V accessory feed or a USB-C PD trigger board set to 12 V; never wire straight to the battery without a fuse.",
+            "Many laptops run without a battery on AC alone; some (and many Apple models) throttle without one — test before final assembly.",
+            "Do not swap in an adapter with a different voltage or connector; matching wattage or higher at the same voltage is fine."
+          ]
+        },
+        {
+          "heading": "Software",
+          "items": [
+            "Install a minimal Linux and start a full-screen browser at boot (e.g. Chromium --kiosk <url>).",
+            "Set BIOS to power on after AC loss so the kiosk recovers from outages.",
+            "Disable sleep and screen blanking."
+          ]
+        },
+        {
+          "heading": "Reusing a bare panel: LVDS/eDP controller boards",
+          "items": [
+            "Read the sticker on the back of the panel (e.g. LP156WH4-TLA1, B156HAB01.0, N140BGE-L23). That part number — not the laptop model — decides which board you need.",
+            "Look the part number up on panelook.com (or the maker's datasheet) to confirm interface (LVDS vs eDP), pin count (LVDS often 40-pin; eDP usually 30-pin, 40-pin for touch/high-res), lanes, and backlight type (LED vs CCFL).",
+            "Search marketplaces for '<panel part number> controller board' (e.g. 'LP156WH4 driver board'). Generic boards based on the RTD2556/RTD2513 or M.NT68676 chips take HDMI/VGA in and drive LVDS or eDP out; sellers flash firmware for your exact panel, so give them the part number.",
+            "Buy the board with its matching panel cable; LVDS cables are not interchangeable with eDP cables. Check pin 1 orientation before powering on.",
+            "CCFL-backlit panels (common before ~2009) also need a high-voltage inverter — prefer LED-backlit panels for new builds.",
+            "Converter boards that keep the original laptop (e.g. eDP panel into an LVDS ThinkPad) use panel-specific firmware; only listed panels work."
+          ]
+        },
+        {
+          "heading": "Cooling",
+          "items": [
+            "Keep the original fan and heatsink if you keep the board; clean dust and replace dried thermal paste.",
+            "Leave intake and exhaust paths open in the case — at least as much open area as the laptop's own vents; add a 40–80 mm 5 V/12 V fan if the case is closed.",
+            "Panel-only builds run cool, but give controller boards and inverters airflow; they get warm.",
+            "Monitor temps under load (Batocera: system information; Linux: `sensors`) before closing up."
+          ]
+        },
+        {
+          "heading": "Battery removal and disposal",
+          "items": [
+            "Power off, unplug AC, then remove or disconnect the battery before any other work. Removable packs slide out; internal packs unplug from the board first.",
+            "Glued pouch cells (MacBooks, ultrabooks): use adhesive remover (isopropyl) and plastic tools only — never pry with metal or bend the cell.",
+            "A swollen, dented, hot, or hissing pack: stop, move it outdoors onto concrete or into a metal bin with sand, and do not charge it.",
+            "Tape the terminals and take packs to a battery drop-off (Call2Recycle locator, Home Depot/Lowe's/Best Buy bins, or municipal hazardous waste). Never put Li-ion in household trash or curbside recycling.",
+            "If reusing a healthy pack, keep the original BMS; never charge bare cells without a proper charger."
+          ]
+        }
       ]
     }
   ],
   "links": [
     {
-      "title": "Laptop Arcade Dock (InventorMike) \u2014 Cults3D",
+      "title": "Laptop Arcade Dock (InventorMike) — Cults3D",
       "url": "https://cults3d.com/en/3d-model/game/laptop-arcade-dock",
-      "notes": "Free 3D-printed dock for 14\u201317\" laptops; designed around Batocera on USB. Verified listing (2026-10-28).",
+      "notes": "Free 3D-printed dock for 14–17\" laptops; designed around Batocera on USB. Verified listing (2026-10-28).",
       "tags": [
         "3d-print",
         "bartop",
@@ -283,7 +949,7 @@
       ]
     },
     {
-      "title": "Bartop Arcade Cabinet 15.6\" VESA Monitor \u2014 MakerWorld 3203767",
+      "title": "Bartop Arcade Cabinet 15.6\" VESA Monitor — MakerWorld 3203767",
       "url": "https://makerworld.com/en/models/3203767",
       "notes": "Modular bartop for a 15.6\" VESA monitor (useful if you harvest a panel + controller). Indexed as model 3203767; title confirmed via third-party index (MakerWorld itself bot-walls some fetches).",
       "tags": [
@@ -293,7 +959,7 @@
       ]
     },
     {
-      "title": "3D-Printed Bartop Video Game Arcade (Vader) \u2014 Printables 1009766",
+      "title": "3D-Printed Bartop Video Game Arcade (Vader) — Printables 1009766",
       "url": "https://www.printables.com/model/1009766-3d-printed-bartop-video-game-arcade",
       "notes": "3D-printed bartop cabinet (Printables model 1009766). Verified via search index (2026-10-28).",
       "tags": [
@@ -312,7 +978,7 @@
       ]
     },
     {
-      "title": "Bigger Bartop Arcade Build \u2014 Holbrook Tech",
+      "title": "Bigger Bartop Arcade Build — Holbrook Tech",
       "url": "https://holbrooktech.weebly.com/bigger-bartop-arcade-build.html",
       "notes": "Wood bartop build log and dimensions. HTTP 200 verified 2026-10-28.",
       "tags": [
@@ -322,7 +988,7 @@
       ]
     },
     {
-      "title": "Pete Clarke \u2014 Arcade / MAME build",
+      "title": "Pete Clarke — Arcade / MAME build",
       "url": "https://peteclarkez.github.io/Arcade/MameBuild/",
       "notes": "Documented MAME/arcade cabinet build. HTTP 200 verified 2026-10-28.",
       "tags": [
@@ -332,12 +998,40 @@
       ]
     },
     {
-      "title": "Batocera \u2014 download & install",
+      "title": "Batocera — download & install",
       "url": "https://batocera.org/",
       "notes": "Linux-based retro gaming OS commonly used in laptop bartops.",
       "tags": [
         "software",
         "bartop"
+      ]
+    },
+    {
+      "title": "Panelook — LCD panel database",
+      "url": "https://www.panelook.com/",
+      "notes": "Look up a panel part number for interface, pin count, and backlight before buying a controller board.",
+      "tags": [
+        "panel",
+        "lvds",
+        "edp"
+      ]
+    },
+    {
+      "title": "Batocera download",
+      "url": "https://batocera.org/download",
+      "notes": "Official images and install docs.",
+      "tags": [
+        "batocera",
+        "bartop"
+      ]
+    },
+    {
+      "title": "Call2Recycle battery drop-off locator",
+      "url": "https://www.call2recycle.org/locator/",
+      "notes": "Find a place to recycle Li-ion laptop batteries.",
+      "tags": [
+        "safety",
+        "battery"
       ]
     }
   ],
